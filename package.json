@@ -1,0 +1,30 @@
+{
+  "name": "pulsion-server",
+  "version": "0.0.1",
+  "description": "A lightweight realtime websockets messaging server.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/robmclarty/pulsion-server.git"
+  },
+  "keywords": [
+    "messaging",
+    "websockets",
+    "push",
+    "notification",
+    "server"
+  ],
+  "author": "Rob McLarty <r@robmclarty.com> (http://robmclarty.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robmclarty/pulsion-server/issues"
+  },
+  "homepage": "https://github.com/robmclarty/pulsion-server#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "ws": "^2.0.2"
+  }
+}
