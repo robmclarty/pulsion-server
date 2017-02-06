@@ -23,6 +23,4 @@ wss.on('connection', ws => {
   ws.on('message', msg => {
     console.log(`received: ${ msg }`)
   })
-
-  ws.send('something')
 })
